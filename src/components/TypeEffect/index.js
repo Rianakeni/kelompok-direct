@@ -1,7 +1,5 @@
 const TypeEffect = () => {
-    return (
-      <p> Type Effect Information </p>
-    );
-  };
-  
-  export default TypeEffect;
+  return <h2>Component Type Effect</h2>;
+};
+
+export default TypeEffect;
