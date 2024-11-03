@@ -1,7 +1,9 @@
 const Evolution = () => {
-    return (
-      <p> Evolution Information</p>
-    );
-  };
-  
-  export default Evolution;
+  return (
+    <div>
+      <h2>Component Evolution</h2>
+    </div>
+  );
+};
+
+export default Evolution;
