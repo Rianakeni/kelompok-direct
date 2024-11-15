@@ -1,5 +1,5 @@
 import "./App.css";
-import "./assets/css"
+import "./assets/css/style.css";
 import { aboutUs, currentMember, Hero } from "./components";
 
 const App = () => {
