@@ -1,6 +1,6 @@
 import "./App.css";
 import "./assets/css/style.css";
-import { aboutUs, currentMember, Hero } from "./components";
+import { aboutUs, currentMember, Header } from "./components";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
             <a href="#">OUR MEMBER</a>
           </div>
         </nav>
-        <Hero />
+        <Header />
         <main className="activities">
           <h2 className="section-title">Our Activities</h2>
           <div className="activity-card">
