@@ -1,6 +1,6 @@
 import "./App.css";
 import "./assets/css/style.css";
-import {currentMember, Header, Activities} from "./components";
+import { currentMember, Header, Activities } from "./components";
 
 const App = () => {
   return (
@@ -16,10 +16,9 @@ const App = () => {
         </div>
       </nav>
       <Header />
-      <Activities/>
+      <Activities />
     </div>
   );
 };
 
 export default App;
-
