@@ -1,21 +1,28 @@
+import { useState, useEffect } from "react";
+import { getDatabase, ref, onValue } from "firebase/database";
 import ActivityCard from "../ActivityCard";
 const Activities = () => {
+  const [images, setImages] = useState([]);
+  useEffect(() => {
+    const db = getDatabase();
+    const imagesRef = ref(db, "images/");
+    onValue(imagesRef, (snapshot) => {
+      const data = snapshot.val();
+      setImages(data);
+    });
+  }, []);
   return (
     <main className="activities">
       <h2 className="section-title">Our Activities</h2>
-      <ActivityCard
-        title="Olahraga Bersama Dosen FILKOM"
-        images={[
-          {
-            src: "img/olahraga.jpg",
-            alt: "Sports activity with professors 1",
-          },
-          {
-            src: "img/olahraga.jpg",
-            alt: "Sports activity with professors 2",
-          },
-        ]}
-      />
+      <ActivityCard title="Olahraga Bersama Dosen FILKOM">
+        {images.map((item) => (
+          <img
+            key={item.id}
+            src={`data:image/jpeg;base64,${item.gambar}`}
+            alt={`Activity ${item.id}`}
+          />
+        ))}
+      </ActivityCard>
       <ActivityCard
         title="Doa Subuh Bersama Senior"
         images={[
