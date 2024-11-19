@@ -1,12 +1,13 @@
 import "./App.css";
-import { aboutUs, currentMember } from "./components";
+import "./assets/css";
+import CurrentMember from "./components/currentMember";
 
 const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
       <aboutUs />
-      <currentMember />
+      <CurrentMember />
     </div>
   );
 };
