@@ -71,5 +71,21 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section">
+        <img src="./images/kerohanian.jpeg" alt="Spiritual" className="image" />
+        <div className="text">
+          <h2>SPIRITUAL</h2>
+          <p>
+            Divisi Kerohanian bertanggung jawab untuk merencanakan dan
+            melaksanakan kegiatan keagamaan dan spiritual dalam organisasi.
+            Mereka mengoordinasikan acara seperti doa bersama, ceramah, dan
+            peringatan hari-hari besar keagamaan. Divisi ini juga menyediakan
+            dukungan moral dan spiritual bagi anggota, serta memastikan bahwa
+            nilai-nilai spiritual dan etika diterapkan dalam semua aktivitas
+            organisasi. Mereka berperan penting dalam membangun dan menjaga
+            suasana yang harmonis dan penuh makna dalam lingkungan organisasi.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
