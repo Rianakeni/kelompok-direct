@@ -1,6 +1,6 @@
 import "./App.css";
 import "./assets/css/style.css";
-import { currentMember, Header, Activities } from "./components";
+import { Navbar, Header, Activities } from "./components";
 
 const App = () => {
   return (

@@ -1,5 +1,3 @@
-import react from "react";
-
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -8,7 +6,7 @@ const Navbar = () => {
         CSSA
       </a>
       <div className="nav-links">
-        <a href="#">HOME</a>
+        <a href="/currentMember">HOME</a>
         <a href="#">OUR MEMBER</a>
       </div>
     </nav>
