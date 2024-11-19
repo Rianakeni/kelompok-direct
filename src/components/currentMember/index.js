@@ -141,5 +141,18 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section reverse">
+        <img src="./images/angkatan.jpeg" alt="Multimedia" className="image" />
+        <div className="text">
+          <h2>SENAT ANGKATAN</h2>
+          <p>
+            Divisi Perwakilan Angkatan bertugas untuk menjembatani komunikasi
+            antara mahasiswa dan fakultas. Mereka mengkoordinasikan kegiatan
+            angkatan, menyampaikan aspirasi dan feedback mahasiswa kepada CSSA,
+            serta memastikan kepentingan dan kebutuhan angkatan diakomodasi
+            dengan baik.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
