@@ -127,5 +127,19 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section">
+        <img src="./images/icon.jpg" alt="Public Relation" className="image" />
+        <div className="text">
+          <h2>SPORT</h2>
+          <p>
+            Divisi Sport bertanggung jawab untuk merencanakan, menyelenggarakan,
+            dan mengawasi semua kegiatan olahraga. Mereka mengatur jadwal
+            latihan, kompetisi, dan acara olahraga lainnya, serta memastikan
+            semua kegiatan berjalan lancar dan sesuai standar keselamatan.
+            Selain itu, divisi ini juga berperan dalam mempromosikan gaya hidup
+            sehat.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
