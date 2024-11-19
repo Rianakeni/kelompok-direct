@@ -1,4 +1,7 @@
-import aboutUs from "./aboutUs";
-import currentMember from "./currentMember";
+import CurrentMember from "./currentMember";
+import Header from "./Header";
+import Activities from "./Activities";
+import Navbar from "./Navbar";
+import AboutCSSA from "./AboutCSSA";
 
-export { aboutUs, currentMember };
+export { AboutCSSA, CurrentMember, Header, Activities, Navbar };

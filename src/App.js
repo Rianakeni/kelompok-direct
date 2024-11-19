@@ -1,13 +1,26 @@
 import "./App.css";
-import { aboutUs, currentMember } from "./components";
+import "./assets/css/style.css";
+import "./assets/css/index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  Navbar,
+  Header,
+  Activities,
+  CurrentMember,
+  AboutCSSA,
+} from "./components";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
-      <aboutUs />
-      <currentMember />
-    </div>
+    <Router>
+      <Navbar />
+      <Header />
+      <AboutCSSA />
+      <Routes>
+        <Route path="/" element={<Activities />} />
+        <Route path="/ourmember" element={<CurrentMember />} />
+      </Routes>
+    </Router>
   );
 };
 
