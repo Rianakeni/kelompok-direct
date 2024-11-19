@@ -87,5 +87,18 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section reverse">
+        <img src="./images/edu.jpeg" alt="Education" className="image" />
+        <div className="text">
+          <h2>EDUCATION</h2>
+          <p>
+            Divisi Pendidikan bertugas menyusun dan menyelenggarakan program
+            pendidikan. Divisi ini juga mengembangkan bahan ajar serta
+            memastikan program yang diselenggarakan relevan dan berkualitas.
+            Tujuannya adalah mendukung pengembangan pribadi dan profesional baik
+            mahasiswa dan anggota organisasi yang ada.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
