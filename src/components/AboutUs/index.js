@@ -7,6 +7,6 @@ const AboutUs = () => {
         </p>
       </section>
   )
-};
+}
 
 export default AboutUs;
