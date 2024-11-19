@@ -1,14 +1,19 @@
 import "./App.css";
 import "./assets/css/style.css";
-import { Navbar, Header, Activities } from "./components";
+import "./assets/css/index.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Navbar, Header, Activities, CurrentMember } from "./components";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Navbar />
       <Header />
-      <Activities />
-    </div>
+      <Routes>
+        <Route path="/" element={<Activities />} />
+        <Route path="/ourmember" element={<CurrentMember />} />
+      </Routes>
+    </Router>
   );
 };
 

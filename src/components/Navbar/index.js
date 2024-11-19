@@ -1,13 +1,16 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <a href="#" className="logo">
+      <Link to="/" className="logo">
         <img src="img/logo.png" alt="CSSA Logo" />
         CSSA
-      </a>
+      </Link>
       <div className="nav-links">
-        <a href="/currentMember">HOME</a>
-        <a href="#">OUR MEMBER</a>
+        <Link to="/">HOME</Link>
+        <Link to="/ourmember">OUR MEMBER</Link>
       </div>
     </nav>
   );
