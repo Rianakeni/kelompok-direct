@@ -55,5 +55,21 @@ const CurrentMember = () => (
             </div>
           </div>
         </section>
+        <section className="section reverse">
+        <img src="./images/parlem.jpeg" alt="Parliamentary" className="image" />
+        <div className="text">
+          <h2>PARLIAMENTARY</h2>
+          <p>
+            Parliamentary atau Divisi Acara bertanggung jawab untuk merencanakan
+            dan mengorganisir acara, berkoordinasi dengan pihak terkait,
+            mengelola anggaran, serta memastikan pelaksanaan acara berjalan
+            lancar. Mereka juga harus mengatasi masalah yang muncul selama acara
+            berlangsung dan melakukan evaluasi serta menyusun laporan akhir
+            setelah acara selesai. Peran ini memastikan setiap detail acara
+            dipersiapkan dan diimplementasikan dengan baik untuk mencapai tujuan
+            yang telah ditetapkan.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
