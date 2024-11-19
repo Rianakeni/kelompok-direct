@@ -113,5 +113,19 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section reverse">
+        <img src="./images/mulmed.jpeg" alt="Multimedia" className="image" />
+        <div className="text">
+          <h2>MULTIMEDIA</h2>
+          <p>
+            Divisi Multimedia bertanggung jawab untuk membuat, mengelola, dan
+            memproduksi konten visual dan audio untuk organisasi. Mereka
+            menghasilkan materi promosi seperti video, foto, dan desain grafis
+            untuk berbagai platform. Selain itu, divisi ini juga memastikan
+            bahwa semua konten multimedia mencerminkan citra dan pesan
+            organisasi secara konsisten dan menarik.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
