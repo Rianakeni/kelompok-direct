@@ -154,5 +154,62 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="advisor-section">
+        <div className="advisor-cards">
+          <div className="advisor-card">
+            <img
+              src="./images/maamRaissa.jpeg"
+              alt="Advisor 1"
+              className="advisor-image"
+            />
+            <div className="advisor-info">
+              <h3 className="advisor-name">Advisor</h3>
+              <p className="advisor-role">Raisa M. Maringka M.Kom</p>
+            </div>
+          </div>
+          <div className="advisor-card">
+            <img
+              src="./images/sirRolly.jpeg"
+              alt="Advisor 2"
+              className="advisor-image"
+            />
+            <div className="advisor-info">
+              <h3 className="advisor-name">Advisor</h3>
+              <p className="advisor-role">Rolly Lontaan M.Kom.</p>
+            </div>
+          </div>
+          <div className="advisor-card">
+            <img
+              src="./images/sirGreenm.jpeg"
+              alt="Advisor 3"
+              className="advisor-image"
+            />
+            <div className="advisor-info">
+              <h3 className="advisor-name">Advisor</h3>
+              <p className="advisor-role">Green A. Sandag, S.Kom., M.S. </p>
+            </div>
+          </div>
+          <div className="advisor-card">
+            <img
+              src="./images/sirGreens.jpeg"
+              alt="Advisor 4"
+              className="advisor-image"
+            />
+            <div className="advisor-info">
+              <h3 className="advisor-name">Advisor</h3>
+              <p className="advisor-role">Green Mandias, S.Kom., M.Cs.</p>
+            </div>
+          </div>
+          <div className="advisor-president">
+            <img
+              src="./images/wayne.jpg"
+              alt="Advisor 4"
+              className="advisor-image"
+            />
+            <h3 className="advisor-name">Wayne Lamansiang</h3>
+            <p className="advisor-role">President</p>
+          </div>
+        </div>
+      </section>
         </main>
     </div>
