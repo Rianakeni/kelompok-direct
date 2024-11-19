@@ -42,22 +42,22 @@ const Activities = () => {
         const imagesData = snapshot.val();
         setStudentForumImages([
           {
-            src: `data:image/jpeg;base64,${imagesData[3].gambar}`,
+            src: `data:image/jpeg;base64,${imagesData[1].gambar}`,
             alt: "Certificate submission",
             className: "forum-image",
           },
           {
-            src: `data:image/jpeg;base64,${imagesData[4].gambar}`,
+            src: `data:image/jpeg;base64,${imagesData[1].gambar}`,
             alt: "Group photo",
             className: "forum-image",
           },
           {
-            src: `data:image/jpeg;base64,${imagesData[5].gambar}`,
+            src: `data:image/jpeg;base64,${imagesData[1].gambar}`,
             alt: "Students in classroom",
             className: "forum-image",
           },
           {
-            src: `data:image/jpeg;base64,${imagesData[6].gambar}`,
+            src: `data:image/jpeg;base64,${imagesData[1].gambar}`,
             alt: "Large group gathering",
             className: "forum-image large",
           },

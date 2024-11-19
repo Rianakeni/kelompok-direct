@@ -7,11 +7,11 @@
 }
 
 body {
-  background-color: #fff5eb;
+  background: linear-gradient(to bottom, #fff 0%, #ffddc4 70%);
 }
 
 .navbar {
-  background-color: #8b4513;
+  background-color: #68330e;
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -58,12 +58,26 @@ body {
   background-size: cover;
   background-position: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
   text-align: center;
+  color: white;
   margin-bottom: 3rem;
   border-radius: 0 0 2rem 2rem;
+}
+
+.hero:hover {
+  background-image: url("../../../public/img/cssa1.JPG");
+  background-size: cover;
+}
+
+h1 {
+  background: linear-gradient(to right, #e7a576 0%, #ffe3cf 57%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 .hero h1 {
@@ -71,6 +85,9 @@ body {
   font-weight: bold;
 }
 
+.hero p {
+  font-size: 28px;
+}
 .section-title {
   text-align: center;
   margin: 2rem 0;
@@ -84,8 +101,8 @@ body {
 .section-title::after {
   content: "";
   position: absolute;
-  top: 50%;
-  width: 25%;
+  top: 70%;
+  width: 35%;
   height: 1px;
   background-color: #8b4513;
 }
@@ -98,25 +115,41 @@ body {
   right: 0;
 }
 
+.about-us {
+  padding: 1rem 8rem;
+  text-align: center;
+  line-height: 2;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #3d2310 0%, #f0ba94 57%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
 .activities {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 2px auto;
   padding: 2rem;
 }
 
 .activity-card {
-  background: white;
+  background: rgba(167, 91, 38, 0.2);
   border-radius: 1rem;
   padding: 2rem;
   margin-bottom: 2rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px 3px rgba(255, 255, 255, 1);
 }
 
 .activity-title {
-  color: #1a365d;
-  font-size: 1.5rem;
+  color: #2c1606;
+  font-size: 1.2rem;
   margin-bottom: 1.5rem;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .activity-images {
@@ -124,6 +157,11 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+}
+
+.activity-images img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px #3d2310;
 }
 
 .activity-images img {
