@@ -100,5 +100,18 @@ const CurrentMember = () => (
           </p>
         </div>
       </section>
+      <section className="section">
+        <img src="./images/PR.jpeg" alt="Public Relation" className="image" />
+        <div className="text">
+          <h2>PUBLIC RELATION</h2>
+          <p>
+            Divisi Public Relation bertugas membangun dan memelihara citra
+            positif organisasi melalui komunikasi dengan publik dan media.
+            Mereka mengelola hubungan dengan media. Selain itu, divisi ini juga
+            berperan dalam menangani krisis komunikasi dan memastikan pesan
+            organisasi disampaikan secara konsisten dan efektif.
+          </p>
+        </div>
+      </section>
         </main>
     </div>
