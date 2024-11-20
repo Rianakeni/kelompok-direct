@@ -20,10 +20,21 @@ body {
 }
 
 .logo {
-  height: 50px;
-  margin-left: 200px;
-  justify-content: left;
-  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  color: white;
+  /* text-decoration: none; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: -50; /* Pastikan logo berada di ujung kiri */
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 50;
 }
 
 .nav {
